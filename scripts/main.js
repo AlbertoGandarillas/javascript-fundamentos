@@ -2,7 +2,7 @@
 
 function CallMenu() {
     let nro_ejercicio = parseInt(
-        prompt("Ingrese el numero de Ejercicio que quiere ejecutar : \r\n 1. Suma. \r\n 2. Promedio de examenes.")
+        prompt("Ingrese el numero de Ejercicio que quiere ejecutar : \r\n 1. Suma. \r\n 2. Promedio de examenes. \r\n 3. Calcular Area Rectangulo. \r\n 4. Calcular Area Triangulo. \r\n 5. Carcular Area Circulo. \r\n 6. Calcular Salario Semanal. \r\n 7. Convertir a Pulgadas. \r\n 8. Cambiar a Dolares. \r\n 9. Calcular Edad Empleado. \r\n 10. Calcular Menor. \r\n 11. Calcular Bono. \r\n 12. Calcular Incremento Salario. \r\n  13. Calcular Aprobados. \r\n 14. Contar colores de focos.\r\n 15. Calcular Eleccion Valida.")
       );
       if (isNaN(nro_ejercicio)) {
         alert("Por favor ingrese valores numericos");
